@@ -53,10 +53,10 @@ namespace CSharpIntro
             }
 
             //do something with if , else if, else
-                if(2<=5){
+                if(2==5){
                     Console.WriteLine("2<5");
                 }
-                else if(2==2){
+                else if (2==2){
                     Console.WriteLine("it's 2");
                 }
                 else if( 2>3 ){
@@ -80,6 +80,8 @@ namespace CSharpIntro
 
         static void doSomething(){
                 Console.WriteLine("This is a static method");
+                //string interpolation syntax return $"\"{s}\"";
+
         }
     }
 
